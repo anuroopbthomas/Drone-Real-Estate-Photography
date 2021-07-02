@@ -17,6 +17,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+		
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -57,7 +58,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">We will capture your property in every angle!</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Drone Real Estate Photography is your all-in-one, full-service Real Estate Media Agency. We’re committed to capturing innovative and creative visual content that will transcend your competition while increasing your traffic. Our dedicated team provides quality photos, videos, drone services, 3D virtual tours, and more!</p>
+                        <p class="text-white-75 mb-4">Drone Real Estate Photography is your all-in-one, full-service Real Estate Media Agency. We’re committed to capturing innovative and creative visual content that will transcend your competition while increasing your traffic. Our dedicated team provides quality photos, videos, drone services, 3D virtual tours (powered by Matterport 3D Print), virutal dollhouse model, measurable 3D interactive spaces, and more!</p>
                         <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
                     </div>
                 </div>
@@ -73,14 +74,14 @@
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">High Quality</h3>
-                            <p class="text-muted mb-0">Our images and videos are captured in 4k! Our virtual 3D tours are perfect for looking at the details of a property!</p>
+                            <p class="text-muted mb-0">Our images and videos are captured in 4k 60 fps! Our virtual 3D tours are perfect for clients to see the details of a property!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
                             <h3 class="h4 mb-2">Digital Access</h3>
-                            <p class="text-muted mb-0">All assets captured are available digitally for easy access!</p>
+                            <p class="text-muted mb-0">All assets captured are available digitally for easy access! With 3D scanning, we are able to provide a dollhouse model and measurable interactive space that can be viewed on any browser!</p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
@@ -180,9 +181,15 @@
 										</tr>
 									</thead>
 									<tbody>
+										
 										<tr>
 											<td>Free Consulation</td>
 										</tr>
+										<!--
+										<tr>
+											<td class="collapse" id="collapseExample">Look at your property and determine the best way to showcase. We will discuss your goals with </td>
+										</tr>
+										-->
 										<tr>
 											<td>5 Outdoor Drone Shots</td>
 										</tr>
@@ -382,10 +389,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $('[data-toggle="tooltip"]').tooltip();   
+		});
+		</script>
     </body>
 </html>
