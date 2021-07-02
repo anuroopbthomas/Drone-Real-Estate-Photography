@@ -10968,6 +10968,15 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+#icontext{
+	font-size: .5rem;
+}
+
+#droneimage {
+	height: 1rem;
+	padding-right: 1rem;
+}
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
